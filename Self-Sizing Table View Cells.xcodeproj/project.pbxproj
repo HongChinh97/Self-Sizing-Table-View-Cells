@@ -12,6 +12,7 @@
 		84C460772109654900A925CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C460752109654900A925CA /* Main.storyboard */; };
 		84C460792109654A00A925CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C460782109654A00A925CA /* Assets.xcassets */; };
 		84C4607C2109654A00A925CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C4607A2109654A00A925CA /* LaunchScreen.storyboard */; };
+		84C460842109658000A925CA /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C460832109658000A925CA /* ArtistTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		84C460782109654A00A925CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84C4607B2109654A00A925CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84C4607D2109654A00A925CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C460832109658000A925CA /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				84C460712109654900A925CA /* AppDelegate.swift */,
 				84C460732109654900A925CA /* ViewController.swift */,
+				84C460832109658000A925CA /* ArtistTableViewCell.swift */,
 				84C460752109654900A925CA /* Main.storyboard */,
 				84C460782109654A00A925CA /* Assets.xcassets */,
 				84C4607A2109654A00A925CA /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84C460742109654900A925CA /* ViewController.swift in Sources */,
+				84C460842109658000A925CA /* ArtistTableViewCell.swift in Sources */,
 				84C460722109654900A925CA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
